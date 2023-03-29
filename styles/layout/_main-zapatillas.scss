@@ -1,0 +1,74 @@
+.cards_container {
+    .zapatilla1 {
+        @include card-zapatilla1;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .zapatilla2 {
+        @include card-zapatilla2;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .zapatilla3 {
+        @include card-zapatilla3;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .zapatilla4 {
+        @include card-zapatilla4;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .zapatilla5 {
+        @include card-zapatilla5;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .zapatilla6 {
+        @include card-zapatilla6;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .zapatilla7 {
+        @include card-zapatilla7;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .zapatilla8 {
+        @include card-zapatilla8;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .zapatilla9 {
+        @include card-zapatilla9;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .zapatilla10 {
+        @include card-zapatilla10;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .zapatilla11 {
+        @include card-zapatilla11;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .zapatilla12 {
+        @include card-zapatilla12;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+}

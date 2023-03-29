@@ -1,0 +1,23 @@
+header {
+    img {
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
+    }
+}
+
+body {
+    text-align: center;
+    width: 100%;
+}
+
+ul{
+      list-style: none;
+        a {
+            text-decoration: none;
+        }
+    }
+
+
+.disabled{
+    display: none;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="https://kit.fontawesome.com/c594531d6e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>Urban Outfitters</title>
+    <link rel="icon" href="./img/icono.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <div class="nav-bar_container" >
+            <img src="../img/logo.png" alt="">
+            <div class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="remeras.html">Remeras</a>
+                    </li>
+                    <li>
+                        <a href=/buzos.html">Buzos</a>
+                    </li>
+                    <li>
+                        <a href="pantalones.html">Pantalones</a>
+                    </li>
+                    <li>
+                        <a href="accesorio.html">Accesorios</a>
+                    </li>
+                    <li>
+                        <a href="zapatillas.html">zapatillas</a>
+                    </li>   
+                </ul>
+            </div>
+            <ul class="nav-bar_redes">
+                <li>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+            </ul>
+
+            <ul class="carrito">
+                <li>
+                    <a href="carrito.html">
+                        <i class="fa-solid fa-cart-shopping  inicio-color"></i>
+                        <span id="numerito" class="numerito">0</span>
+                    </a>
+                </li>   
+            </ul>
+
+
+        </div>
+
+    </header>
+
+
+        <div class="contenedor-carrito">
+            <div class="carrito-titulos">
+                <h3></h3>
+                <h3></h3>
+                <h3>cantidad</h3>
+                <h3>precio</h3>
+                <h3>subtotal</h3>
+            </div>
+            <p id="carrito-vacio" class="carrito-vacio disabled">Tu carrito está vacío. <i class="bi bi-emoji-frown"></i></p>
+
+            <div id="carrito-productos" class="carrito-productos">
+           <!-- Javascript  -->
+            </div>
+
+            <div id="carrito-acciones" class="carrito-acciones disabled">
+                <div class="carrito-acciones-izquierda">
+                    <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                </div>
+                <div class="carrito-acciones-derecha">
+                    <div class="carrito-acciones-total">
+                        <p>Total:</p>
+                        <p id="total">$3000</p>
+                    </div>
+                    <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                </div>
+            </div>
+
+            <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
+
+        </>
+
+
+
+        
+    </main>
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer-bar">
+                <ul>
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="remeras.html">Remeras</a>
+                    </li>
+                    <li>
+                        <a href="buzos.html">Buzos</a>
+                    </li>
+                    <li>
+                        <a href="pantalones.html">Pantalones</a>
+                    </li>
+                    <li>
+                        <a href="accesorio.html">Accesorios</a>
+                    </li>
+                    <li>
+                        <a href="zapatillas.html">Zapatillas</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-redes">
+                <ul>
+                    <li>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                </ul>                           
+            </div>
+                <img src="../img/logoFooter.jpg" alt="">
+                <div class="derechos"><p>Todos los derechos reservados © Lucio Rivas 2023</p></div>
+        </div>
+
+    </footer>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+.cards_container {
+    .accesorio1 {
+        @include card-accesorio1;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .accesorio2 {
+        @include card-accesorio2;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .accesorio3 {
+        @include card-accesorio3;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .accesorio4 {
+        @include card-accesorio4;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .accesorio5 {
+        @include card-accesorio5;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .accesorio6 {
+        @include card-accesorio6;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .accesorio7 {
+        @include card-accesorio7;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .accesorio8 {
+        @include card-accesorio8;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .accesorio9 {
+        @include card-accesorio9;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .accesorio10 {
+        @include card-accesorio10;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .accesorio11 {
+        @include card-accesorio11;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .accesorio12 {
+        @include card-accesorio12;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+}

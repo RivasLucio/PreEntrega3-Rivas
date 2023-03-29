@@ -1,0 +1,43 @@
+.footer_container {
+    width: 100%;
+    height: 150px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+     font-family: 'Roboto Condensed', sans-serif;
+
+    a {
+        color: #fff;
+    }
+    .footer-bar{
+        margin-top: 5px;
+        ul {
+            display: flex;
+            gap: 18px;
+            font-size: 17px;
+        }
+    }
+    .footer-redes {
+        ul {
+            display: flex;
+            gap: 15px;
+            font-size: 17px;
+        }
+    }
+
+        img {
+            width: 4%;
+            height: 30%;
+            transition: 1s;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        .derechos {
+            color: #484747;
+            font-size: 11px;            
+        }
+
+}

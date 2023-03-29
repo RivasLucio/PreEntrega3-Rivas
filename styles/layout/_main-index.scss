@@ -1,0 +1,210 @@
+.fondo_container {
+    background: url(../img/urbanfondo.jpeg);
+    background-position: center -300px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+}
+.titulo_container {
+    margin: 30px;
+}
+
+.primera-seccion_container {
+    width: 95%;
+    height: 700px;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    margin: auto;
+    .primera-seccion_card1 {
+        @include card1;
+        grid-column: span 4;
+        grid-row: span 3;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        color: #fff;
+        h3 {
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            border: 2px solid #fff;
+            padding: 12px;
+            transition: 0.8s;
+            &:hover {
+                background-color: #EA7914;
+            }
+        }
+
+    }
+    .primera-seccion_card2 {
+        @include card2;
+        grid-column: span 4;
+        grid-row: span 3;
+                display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        color: #fff;
+        h3 {
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            border: 2px solid #fff;
+            padding: 12px;
+            transition: 0.8s;
+            &:hover {
+                background-color: #EA7914;
+            }
+        }
+        
+    }
+    .primera-seccion_card3 {
+        @include card3;
+        grid-column: span 4;
+        grid-row: span 3;
+                display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        color: #fff;
+        h3 {
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            border: 2px solid #fff;
+            padding: 12px;
+            transition: 0.8s;
+            &:hover {
+                background-color: #EA7914;
+            }
+        }
+    }
+    .primera-seccion_card4 {
+        @include card4;
+        grid-column: span 6;
+        grid-row: span 4;
+                display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        color: #fff;
+        h3 {
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            border: 2px solid #fff;
+            padding: 12px;
+            transition: 0.8s;
+            &:hover {
+                background-color: #EA7914;
+            }
+        }         
+    }
+    .primera-seccion_card5 {
+        @include card5;
+        grid-column: span 6;
+        grid-row: span 4;
+                display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        color: #fff;
+        h3 {
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            border: 2px solid #fff;
+            padding: 12px;
+            transition: 0.8s;
+            &:hover {
+                background-color: #EA7914;
+            }
+        }
+    }
+
+}
+
+.outfit_container {
+    width: 85%;
+    height: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    .outfit-target1 {
+        @include outfit-target1;
+        transition: 0.8s;
+        &:hover {
+            transform: scale(1.1)
+        }
+    }
+    .outfit-target2 {
+        @include outfit-target2;
+        transition: 0.8s;
+         &:hover {
+            transform: scale(1.1)
+        }
+    }
+    .outfit-target3 {
+        @include outfit-target3;
+        transition: 0.8s;
+         &:hover {
+            transform: scale(1.1)
+        }
+    }
+    .outfit-target4 {
+        @include outfit-target4;
+        transition: 0.8s;
+         &:hover {
+            transform: scale(1.1)
+        }
+    }
+    .outfit-target5 {
+        @include outfit-target5;
+        transition: 0.8s;
+         &:hover {
+            transform: scale(1.1)
+        }
+    }
+    .outfit-target6 {
+        @include outfit-target6;
+        transition: 0.8s;
+         &:hover {
+            transform: scale(1.1)
+        }
+    }
+    .outfit-target7{
+        @include outfit-target7;
+        transition: 0.8s;
+         &:hover {
+            transform: scale(1.1)
+        }
+    }
+}

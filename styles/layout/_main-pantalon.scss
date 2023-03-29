@@ -1,0 +1,74 @@
+.cards_container {
+    .pantalon1 {
+        @include card-pantalon1;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .pantalon2 {
+        @include card-pantalon2;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .pantalon3 {
+        @include card-pantalon3;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .pantalon4 {
+        @include card-pantalon4;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .pantalon5 {
+        @include card-pantalon5;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .pantalon6 {
+        @include card-pantalon6;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .pantalon7 {
+        @include card-pantalon7;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .pantalon8 {
+        @include card-pantalon8;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .pantalon9 {
+        @include card-pantalon9;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .pantalon10 {
+        @include card-pantalon10;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .pantalon11 {
+        @include card-pantalon11;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .pantalon12 {
+        @include card-pantalon12;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+}

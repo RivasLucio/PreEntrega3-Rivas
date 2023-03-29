@@ -1,0 +1,44 @@
+.nav-bar_container {
+    img {
+        width: 17%;
+        height: 17%;
+        padding: 20px;
+        transition: 0.8s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 800;
+
+     ul {
+        display: flex;
+        a {
+            font-size: 20px;
+            color: #000;
+        }
+    }
+    .nav-bar {
+        ul{
+            gap: 40px;
+            li {
+                &:hover {
+                    border-bottom: #000 2px solid;
+                }
+            }
+        }
+    }
+    .nav-bar_redes {
+        a {
+            font-size: 22px;
+            margin: 15px;
+        }
+    }
+    .inicio-color {
+        color: #EA7914;
+    }
+}

@@ -1,0 +1,74 @@
+.cards_container {
+    .buzo1 {
+        @include card-buzo1;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .buzo2 {
+        @include card-buzo2;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .buzo3 {
+        @include card-buzo3;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .buzo4 {
+        @include card-buzo4;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .buzo5 {
+        @include card-buzo5;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .buzo6 {
+        @include card-buzo6;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .buzo7 {
+        @include card-buzo7;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .buzo8 {
+        @include card-buzo8;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .buzo9 {
+        @include card-buzo9;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .buzo10 {
+        @include card-buzo10;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .buzo11 {
+        @include card-buzo11;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+    .buzo12 {
+        @include card-buzo12;
+        width: 100%;
+        height: 80%;
+        border-radius: 3%;
+    }
+}

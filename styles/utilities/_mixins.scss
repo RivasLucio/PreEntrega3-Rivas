@@ -1,0 +1,593 @@
+@mixin card1 {
+    background: url(../img/remera2.jpeg) no-repeat center center/cover;
+    background-size: 420px;
+    transition: 0.8s;
+    &:hover {
+        background-size: 500px
+    }
+}
+@mixin card2 {
+    background: url(../img/accesorios.jpg)  no-repeat center center/cover;
+    background-size: 420px;
+    transition: 0.8s;
+    &:hover {
+        background-size: 500px
+    }
+
+}
+@mixin card3{
+    background: url(../img/pant.jpg) no-repeat center center/cover;
+    background-size: 420px;
+    transition: 0.8s;
+    &:hover {
+        background-size: 500px
+    }
+
+}
+@mixin card4 {
+    background: url(../img/hoodie.jpg) no-repeat center center/cover;
+    background-size: 640px;
+        transition: 0.8s;
+    &:hover {
+        background-size: 720px
+    }
+
+}
+@mixin card5 {
+    background: url(../img/shoes.jpeg) no-repeat center center/cover;
+    background-size: 640px;
+        transition: 0.8s;
+    &:hover {
+        background-size: 720px
+    }
+
+}
+
+
+
+@mixin outfit-target1 {
+    background: url(../img/outfit1.jpeg)no-repeat center center/cover;
+    grid-row: span 5;
+    grid-column: span 2;
+    
+}
+@mixin outfit-target2 {
+    background: url(../img/outfit2.jpeg) no-repeat center center/cover;
+    grid-row: span 5;
+    grid-column: span 2;
+
+}
+@mixin outfit-target3 {
+    background: url(../img/outfit3.jpeg) no-repeat center center/cover;
+        grid-row: span 5;
+    grid-column: span 2;
+
+}
+@mixin outfit-target4 {
+    background: url(../img/outfit4.jpeg) no-repeat center center/cover;
+    grid-row: span 5;
+    grid-column: span 2;
+
+}
+@mixin outfit-target5 {
+    background: url(../img/outfit5.jpeg) no-repeat center center/cover;
+        grid-row: span 5;
+    grid-column: span 2;
+
+}
+@mixin outfit-target6 {
+    background: url(../img/outfit6.jpeg) no-repeat center center/cover;
+        grid-row: span 5;
+    grid-column: span 2;
+
+}
+@mixin outfit-target7 {
+    background: url(../img/outfit7.jpeg) no-repeat center center/cover;
+        grid-row: span 5;
+    grid-column: span 2;
+
+}
+
+
+
+@mixin card-remera1 {
+    background: url(../img/remera1.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-remera2 {
+    background: url(../img/remera2.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-remera3 {
+    background: url(../img/remera3.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-remera4 {
+    background: url(../img/remera4.jpg)no-repeat center center/cover;   
+    background-size: 400px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 450px;
+    }
+}
+@mixin card-remera5 {
+    background: url(../img/remera5.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-remera6 {
+    background: url(../img/remera6.jpg)no-repeat center center/cover;   
+    background-size: 400px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 450px;
+    }
+}
+@mixin card-remera7 {
+    background: url(../img/remera7.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-remera8 {
+    background: url(../img/remera8.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-remera9 {
+    background: url(../img/remera9.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-remera10 {
+    background: url(../img/remera10.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-remera11 {
+    background: url(../img/remera11.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-remera12 {
+    background: url(../img/remera12.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+
+@mixin card-buzo1 {
+    background: url(../img/buzo1.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-buzo2 {
+    background: url(../img/buzo2.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-buzo3 {
+    background: url(../img/buzo3.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-buzo4 {
+    background: url(../img/buzo4.jpg)no-repeat center center/cover;   
+    background-size: 400px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 450px;
+    }
+}
+@mixin card-buzo5 {
+    background: url(../img/buzo5.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-buzo6 {
+    background: url(../img/buzo6.jpg)no-repeat center center/cover;   
+    background-size: 400px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 450px;
+    }
+}
+@mixin card-buzo7 {
+    background: url(../img/buzo7.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-buzo8 {
+    background: url(../img/buzo8.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-buzo9 {
+    background: url(../img/buzo9.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-buzo10 {
+    background: url(../img/buzo10.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-buzo11 {
+    background: url(../img/buzo11.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-buzo12 {
+    background: url(../img/buzo12.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-pantalon1 {
+    background: url(../img/pantalon1.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-pantalon2 {
+    background: url(../img/pantalon2.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-pantalon3 {
+    background: url(../img/pantalon3.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-pantalon4 {
+    background: url(../img/pantalon4.jpg)no-repeat center center/cover;   
+    background-size: 400px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 450px;
+    }
+}
+@mixin card-pantalon5 {
+    background: url(../img/pantalon5.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-pantalon6 {
+    background: url(../img/pantalon6.jpg)no-repeat center center/cover;   
+    background-size: 400px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 450px;
+    }
+}
+@mixin card-pantalon7 {
+    background: url(../img/pantalon7.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-pantalon8 {
+    background: url(../img/pantalon8.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-pantalon9 {
+    background: url(../img/pantalon9.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-pantalon10 {
+    background: url(../img/pantalon10.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-pantalon11 {
+    background: url(../img/pantalon11.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-pantalon12 {
+    background: url(../img/pantalon12.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+
+@mixin card-accesorio1 {
+    background: url(../img/accesorios1.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-accesorio2 {
+    background: url(../img/accesorios2.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-accesorio3 {
+    background: url(../img/accesorios3.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-accesorio4 {
+    background: url(../img/accesorios4.jpg)no-repeat center center/cover;   
+    background-size: 400px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 450px;
+    }
+}
+@mixin card-accesorio5 {
+    background: url(../img/accesorios5.jpg)no-repeat center center/cover;   
+    background-size: 400px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 450px;
+    }
+}
+@mixin card-accesorio6 {
+    background: url(../img/accesorios6.jpg)no-repeat center center/cover;   
+    background-size: 400px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 450px;
+    }
+}
+@mixin card-accesorio7 {
+    background: url(../img/accesorios7.jpg)no-repeat center center/cover;   
+    background-size: 400px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 450px;
+    }
+}
+@mixin card-accesorio8 {
+    background: url(../img/accesorios8.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-accesorio9 {
+    background: url(../img/accesorios9.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-accesorio10 {
+    background: url(../img/accesorios10.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-accesorio11 {
+    background: url(../img/accesorios11.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-accesorio12 {
+    background: url(../img/accesorios12.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-zapatilla1 {
+    background: url(../img/zapatilla1.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-zapatilla2 {
+    background: url(../img/zapatilla2.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-zapatilla3 {
+    background: url(../img/zapatilla3.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-zapatilla4 {
+    background: url(../img/zapatilla4.jpg)no-repeat center center/cover;   
+    background-size: 400px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 450px;
+    }
+}
+@mixin card-zapatilla5 {
+    background: url(../img/zapatilla5.jpg)no-repeat center center/cover;   
+    background-size: 400px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 450px;
+    }
+}
+@mixin card-zapatilla6 {
+    background: url(../img/zapatilla6.jpg)no-repeat center center/cover;   
+    background-size: 400px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 450px;
+    }
+}
+@mixin card-zapatilla7 {
+    background: url(../img/zapatilla7.jpg)no-repeat center center/cover;   
+    background-size: 400px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 450px;
+    }
+}
+@mixin card-zapatilla8 {
+    background: url(../img/zapatilla8.jpg)no-repeat center center/cover;   
+    background-size: 400px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 450px;
+    }
+}
+@mixin card-zapatilla9 {
+    background: url(../img/zapatilla9.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-zapatilla10 {
+    background: url(../img/zapatilla10.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+@mixin card-zapatilla11 {
+    background: url(../img/zapatilla11.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
+@mixin card-zapatilla12 {
+    background: url(../img/zapatilla12.jpg)no-repeat center center/cover;   
+    background-size: 300px;
+    transition: 0.9s;
+    &:hover {
+        background-size: 350px;
+    }
+}
+
