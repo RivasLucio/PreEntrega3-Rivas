@@ -17,7 +17,15 @@ ul {
     text-decoration: none; }
 
 .disabled {
-  display: none; }
+  display: none;
+  visibility: hidden; }
+
+.carrito-comprado {
+  color: red;
+  display: flex;
+  align-self: center;
+  position: absolute;
+  margin-top: 50px; }
 
 .nav-bar_container {
   width: 98%;
@@ -262,9 +270,11 @@ ul {
 .cards_container {
   width: 90%;
   margin: auto;
-  height: 105em;
+  height: 100%;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 100px; }
   .cards_container a {
     text-decoration: none; }
   .cards_container h3 {
@@ -872,7 +882,11 @@ ul {
 .contenedor-carrito {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem; }
+  gap: 1.5rem;
+  height: 100%;
+  margin-bottom: 150px; }
+  .contenedor-carrito .margin-vacio {
+    margin-bottom: 200px; }
   .contenedor-carrito .carrito-titulos {
     display: flex;
     justify-content: space-evenly;
@@ -895,6 +909,9 @@ ul {
       padding-right: 20px;
       border-radius: 10px;
       border: 1px solid #EA7914; }
+
+.carrito-vacio {
+  font-size: 25px; }
 
 .footer_container {
   width: 100%;

@@ -8,9 +8,11 @@
 .cards_container {
     width: 90%;
     margin: auto;
-    height: 105em;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 100px;
     a {
         text-decoration: none;
     }
