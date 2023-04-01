@@ -94,9 +94,12 @@ function vaciarCarrito() {
   localStorage.setItem(
     "productos-en-carrito",
     JSON.stringify(productosEnCarrito)
+    
   );
 
   cargaDeProductos();
+  actualizarNumeroCarrito();
+
 }
 
 function actualizarTotal() {
