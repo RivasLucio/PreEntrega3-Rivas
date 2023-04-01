@@ -8,6 +8,8 @@ header {
 body {
     text-align: center;
     width: 100%;
+    transition: 0.8s;
+
 }
 
 ul{
@@ -29,4 +31,10 @@ ul{
     align-self: center;
     position: absolute;
     margin-top: 50px;
+}    //HACER UN LAYOUT NUEVO PARA LAS COSAS DEL CARRITO 
+
+.darkmode {
+    background-color: #13191B;
+    color: #fff;
 }
+
