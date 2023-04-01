@@ -3,7 +3,8 @@
     flex-direction: column;
     gap: 1.5rem;
     height: 100%;
-    margin-bottom: 150px;
+    margin-bottom: 400px;
+    margin-top: 50px;
     .margin-vacio {
         margin-bottom: 200px;
     }
@@ -34,8 +35,45 @@
             border: 1px solid #EA7914;
         }
     }
+
+    .carrito-acciones {
+        display: flex;
+        justify-content: center;
+        gap: 200px;
+        margin-top: 100px;
+        overflow: hidden;
+        .carrito-acciones-izquierda , .carrito-acciones-derecha {
+            button {
+                cursor: pointer;
+                padding: 20px;
+                padding-inline: 30px;
+                border-radius: 20px;
+                background: #EA7914;
+                border: none;
+                color: #fff;
+                transition: 0.6s;
+                &:hover {
+                    padding: 23px;
+                    padding-inline: 36px;
+                }
+            }            
+        }
+        .carrito-acciones-centro {
+            font-size: 25px;
+        }
+        
+    }
+
+    .carrito-comprado {
+        display: flex;
+        align-self: center;
+        position: absolute;
+        margin-top: 50px;
+        font-size: 30px;
+    } 
 }
 
 .carrito-vacio {
     font-size: 25px;
 }
+

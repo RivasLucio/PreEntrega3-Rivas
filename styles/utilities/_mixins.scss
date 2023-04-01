@@ -1,44 +1,44 @@
 @mixin card1 {
     background: url(../img/remera2.jpeg) no-repeat center center/cover;
-    background-size: 420px;
+    background-size: 600px;
     transition: 0.8s;
     &:hover {
-        background-size: 500px
+        background-size: 650px
     }
 }
 @mixin card2 {
     background: url(../img/accesorios.jpg)  no-repeat center center/cover;
-    background-size: 420px;
+    background-size: 600px;
     transition: 0.8s;
     &:hover {
-        background-size: 500px
+        background-size: 650px
     }
 
 }
 @mixin card3{
     background: url(../img/pant.jpg) no-repeat center center/cover;
-    background-size: 420px;
+    background-size: 600px;
     transition: 0.8s;
     &:hover {
-        background-size: 500px
+        background-size: 650px
     }
 
 }
 @mixin card4 {
     background: url(../img/hoodie.jpg) no-repeat center center/cover;
-    background-size: 640px;
+    background-size: 900px;
         transition: 0.8s;
     &:hover {
-        background-size: 720px
+        background-size: 950px
     }
 
 }
 @mixin card5 {
     background: url(../img/shoes.jpeg) no-repeat center center/cover;
-    background-size: 640px;
+    background-size: 900px;
         transition: 0.8s;
     &:hover {
-        background-size: 720px
+        background-size: 950px
     }
 
 }
