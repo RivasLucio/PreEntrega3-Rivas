@@ -81,3 +81,12 @@
 .carrito-productos.disabled{
     display: none;
   }
+
+  .carrito-acciones.disabled {
+    margin-bottom: 400px;
+   .carrito-acciones-derecha , .carrito-acciones-izquierda {
+
+    display: none;
+}
+   
+  }
