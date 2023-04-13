@@ -13,7 +13,18 @@ const contenedorCarritoProductos = document.querySelector("#carrito-productos");
 let botonEliminar = document.querySelectorAll(".carrito-producto-eliminar");
 let botonVaciar = document.querySelector("#carrito-acciones-vaciar");
 
-function cargaDeProductos() {
+
+
+
+const actualizarTotal = () => {
+  const totalCalculo = productosEnCarrito.reduce(
+    (acc, producto) => acc + producto.precio * producto.cantidad,
+    0
+  );
+  precioTotal.innerText = `$${totalCalculo}`;
+};
+
+const cargaDeProductos = () => {
   if (productosEnCarrito && productosEnCarrito.length > 0) {
     carritoVacio.classList.add("disabled");
     carritoVacio.classList.remove("margin-vacio");
@@ -30,7 +41,7 @@ function cargaDeProductos() {
         producto.titulo
       }">
 <div class="carrito-producto-titulo">
-    <small>Título</small>
+    <small>Producto</small>
     <h3>${producto.titulo}</h3>
 </div>
 <div class="carrito-producto-cantidad">
@@ -38,7 +49,7 @@ function cargaDeProductos() {
     <p>${producto.cantidad}</p>
 </div>
 <div class="carrito-producto-precio">
-    <small>Precio</small>
+    <small>Precio por unidad</small>
     <p>$${producto.precio}</p>
 </div>
 <div class="carrito-producto-subtotal">
@@ -58,10 +69,10 @@ function cargaDeProductos() {
   }
 
   botonesEliminar();
-  actualizarTotal()
-}
+  actualizarTotal();
+};
 
-cargaDeProductos();
+
 
 function botonesEliminar() {
   botonEliminar = document.querySelectorAll(".carrito-producto-eliminar");
@@ -88,29 +99,22 @@ function eliminarDelCarrito(e) {
   actualizarNumeroCarrito();
 }
 
-botonVaciar.addEventListener("click", vaciarCarrito);
+
+
+// swetAlert2
 function vaciarCarrito() {
   productosEnCarrito.length = 0;
   localStorage.setItem(
     "productos-en-carrito",
     JSON.stringify(productosEnCarrito)
-    
   );
 
   cargaDeProductos();
   actualizarNumeroCarrito();
-
-}
-
-function actualizarTotal() {
-  const totalCalculo = productosEnCarrito.reduce(
-    (acc, producto) => acc + (producto.precio * producto.cantidad),0);
-    precioTotal.innerText = `$${totalCalculo}`
 }
 
 
 
-carritoAccionesComprar.addEventListener("click", compraDeCarrito);
 function compraDeCarrito() {
   productosEnCarrito.length = 0;
   localStorage.setItem(
@@ -123,5 +127,87 @@ function compraDeCarrito() {
   carritoComprado.classList.remove("disabled");
   carritoComprado.classList.add("producto-comprado");
   contenedorCarritoProductos.classList.add("disabled");
-  actualizarNumeroCarrito()
+  actualizarNumeroCarrito();
 }
+
+
+
+botonVaciar.addEventListener("click", () => {
+  Swal.fire({
+    iconHtml: '<i class="bi bi-trash"></i>',
+    title: '¿Deseas vaciar todo el carrito?',
+    icon: `question`,
+    iconColor:`#ea7914`,
+    showCancelButton: true,
+    confirmButtonText: `Si`,
+    confirmButtonColor: '#ea7914',
+    cancelButtonText: `No`,
+    cancelButtonColor: '#d33',
+    overflow:`hidden`,
+    showClass: {
+      popup: 'animate__animated animate__bounceInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__bounceOutDown'
+    }
+  }).then((result) => {
+    if (result.isConfirmed) {
+      Swal.fire({
+        position: 'bottom-start',
+        icon: 'success',
+        title: 'Carrito borrado',
+        showConfirmButton: false,
+        timer: 2000,
+        showClass: {
+      popup: 'animate__animated animate__bounceInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__bounceOutDown'
+    }
+      })
+      
+      vaciarCarrito()
+    }
+  })
+  
+})
+
+
+
+carritoAccionesComprar.addEventListener("click", () => {
+  Swal.fire({
+    iconHtml: '<i class="bi bi-cart4"></i>',
+    title: '¿Deseas finalizar la compra?',
+    icon: `question`,
+    iconColor:`#ea7914`,
+    showCancelButton: true,
+    confirmButtonText: `Si`,
+    confirmButtonColor: '#ea7914',
+    cancelButtonText: `No`,
+    cancelButtonColor: '#d33',
+    showClass: {
+      popup: 'animate__animated animate__bounceInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__bounceOutDown'
+    }
+    
+  }).then((result) => {
+    if (result.isConfirmed) {
+      Swal.fire({
+        position: 'bottom-end',
+        icon: 'success',
+        title: 'Gracias por tu compra',
+        showConfirmButton: false,
+        timer: 2000,
+        showClass: {
+          popup: 'animate__animated animate__bounceInDown'
+        },
+        hideClass: {
+          popup: 'animate__animated animate__bounceOutDown'
+        }
+      })
+      compraDeCarrito()
+    }
+  })
+})

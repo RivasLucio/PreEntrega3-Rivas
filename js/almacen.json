@@ -1,0 +1,366 @@
+[
+  {
+    "id": "remeras-01",
+    "titulo": "Drew Oversize",
+    "imagen": "../img/remera1.jpg",
+    "precio": "7400"
+  },
+  {
+    "id": "remeras-02",
+    "titulo": "Disconect",
+    "imagen": "../img/remera2.jpg",
+    "precio": "7400"
+  },
+
+  {
+    "id": "remeras-03",
+    "titulo": "Oversize Beige",
+    "imagen": "../img/remera3.jpg",
+    "precio": "7400"
+  },
+  {
+    "id": "remeras-04",
+    "titulo": "Smoke",
+    "imagen": "../img/remera4.jpg",
+    "precio": "7400"
+  },
+  {
+    "id": "remeras-05",
+    "titulo": "Flamme",
+    "imagen": "../img/remera5.jpg",
+    "precio": "7400"
+  },
+  {
+    "id": "remeras-06",
+    "titulo": "Bear",
+    "imagen": "../img/remera6.jpg",
+    "precio": "7400"
+  },
+  {
+    "id": "remeras-07",
+    "titulo": "Diary Oversize",
+    "imagen": "../img/remera7.jpg",
+    "precio": "7400"
+  },
+  {
+    "id": "remeras-08",
+    "titulo": "Oversize Green Lime",
+    "imagen": "../img/remera8.jpg",
+    "precio": "7400"
+  },
+  {
+    "id": "remeras-09",
+    "titulo": "Retro Oversize",
+    "imagen": "../img/remera9.jpg",
+    "precio": "7400"
+  },
+  {
+    "id": "remeras-10",
+    "titulo": "Sad Smiley",
+    "imagen": "../img/remera10.jpg",
+    "precio": "7400"
+  },
+  {
+    "id": "remeras-11",
+    "titulo": "Oversize Over It",
+    "imagen": "../img/remera11.jpg",
+    "precio": "7400"
+  },
+  {
+    "id": "remeras-12",
+    "titulo": "White Oversize",
+    "imagen": "../img/remera12.jpg",
+    "precio": "7400"
+  },
+
+  {
+    "id": "buzos-01",
+    "titulo": "Black Hoodie",
+    "imagen": "../img/buzo1.jpg",
+    "precio": "13600"
+  },
+  {
+    "id": "buzos-02",
+    "titulo": "Gray Hoodie",
+    "imagen": "../img/buzo2.jpg",
+    "precio": "13600"
+  },
+  {
+    "id": "buzos-03",
+    "titulo": "Chill Hoodie",
+    "imagen": "../img/buzo3.jpg",
+    "precio": "13600"
+  },
+  {
+    "id": "buzos-04",
+    "titulo": "Spider Hoodie",
+    "imagen": "../img/buzo4.jpg",
+    "precio": "13600"
+  },
+  {
+    "id": "buzos-05",
+    "titulo": "Hot Hoodie",
+    "imagen": "../img/buzo5.jpg",
+    "precio": "13600"
+  },
+  {
+    "id": "buzos-06",
+    "titulo": "Blackamba Hoodie",
+    "imagen": "../img/buzo6.jpg",
+    "precio": "13600"
+  },
+  {
+    "id": "buzos-07",
+    "titulo": "Lo-Fi Hoodie",
+    "imagen": "../img/buzo7.jpg",
+    "precio": "13600"
+  },
+  {
+    "id": "buzos-08",
+    "titulo": "Flamme",
+    "imagen": "../img/buzo8.jpg",
+    "precio": "13600"
+  },
+  {
+    "id": "buzos-09",
+    "titulo": "Destiny",
+    "imagen": "../img/buzo9.jpg",
+    "precio": "13600"
+  },
+  {
+    "id": "buzos-10",
+    "titulo": "Skeleton Hoodie",
+    "imagen": "../img/buzo10.jpg",
+    "precio": "13600"
+  },
+  {
+    "id": "buzos-11",
+    "titulo": "Beach Hoodie",
+    "imagen": "../img/buzo11.jpg",
+    "precio": "13600"
+  },
+  {
+    "id": "buzos-12",
+    "titulo": "White Hoodie",
+    "imagen": "../img/buzo12.jpg",
+    "precio": "13600"
+  },
+
+  {
+    "id": "pantalones-01",
+    "titulo": "Cargo Gris",
+    "imagen": "../img/pantalon1.jpg",
+    "precio": "6500"
+  },
+  {
+    "id": "pantalones-02",
+    "titulo": "Cargo Negro",
+    "imagen": "../img/pantalon2.jpg",
+    "precio": "6500"
+  },
+  {
+    "id": "pantalones-03",
+    "titulo": "Bermuda Cargo Negra",
+    "imagen": "../img/pantalon3.jpg",
+    "precio": "6500"
+  },
+  {
+    "id": "pantalones-04",
+    "titulo": "Bermuda Cargo Verde",
+    "imagen": "../img/pantalon4.jpg",
+    "precio": "6500"
+  },
+  {
+    "id": "pantalones-05",
+    "titulo": "Bermuda 23 Jordan",
+    "imagen": "../img/pantalon5.jpg",
+    "precio": "6500"
+  },
+  {
+    "id": "pantalones-06",
+    "titulo": "Bermuda Skeleton",
+    "imagen": "../img/pantalon6.jpg",
+    "precio": "6500"
+  },
+  {
+    "id": "pantalones-07",
+    "titulo": "Cargo Tipo Jean",
+    "imagen": "../img/pantalon7.jpg",
+    "precio": "6500"
+  },
+  {
+    "id": "pantalones-08",
+    "titulo": "Jogging",
+    "imagen": "../img/pantalon8.jpg",
+    "precio": "6500"
+  },
+  {
+    "id": "pantalones-09",
+    "titulo": "Love Jean Mom",
+    "imagen": "../img/pantalon9.jpg",
+    "precio": "6500"
+  },
+  {
+    "id": "pantalones-10",
+    "titulo": "Cargo Beige",
+    "imagen": "../img/pantalon10.jpg",
+    "precio": "6500"
+  },
+  {
+    "id": "pantalones-11",
+    "titulo": "Cargo Marron",
+    "imagen": "../img/pantalon11.jpg",
+    "precio": "6500"
+  },
+  {
+    "id": "pantalones-12",
+    "titulo": "Butterfly Jean Mom",
+    "imagen": "../img/pantalon12.jpg",
+    "precio": "6500"
+  },
+
+  {
+    "id": "accesorios-01",
+    "titulo": "Mochila Negra",
+    "imagen": "../img/accesorios1.jpg",
+    "precio": "5000"
+  },
+  {
+    "id": "accesorios-02",
+    "titulo": "Riñonera Tipo Cuadrada",
+    "imagen": "../img/accesorios2.jpg",
+    "precio": "5000"
+  },
+  {
+    "id": "accesorios-03",
+    "titulo": "Riñonera Negra",
+    "imagen": "../img/accesorios3.jpg",
+    "precio": "5000"
+  },
+  {
+    "id": "accesorios-04",
+    "titulo": "Riñonera Beige",
+    "imagen": "../img/accesorios4.jpg",
+    "precio": "5000"
+  },
+  {
+    "id": "accesorios-05",
+    "titulo": "Mochila Peluche Clara",
+    "imagen": "../img/accesorios5.jpg",
+    "precio": "6000"
+  },
+  {
+    "id": "accesorios-06",
+    "titulo": "Mochila Peluche Oscura",
+    "imagen": "../img/accesorios6.jpg",
+    "precio": "6000"
+  },
+  {
+    "id": "accesorios-07",
+    "titulo": "Mochila Mini",
+    "imagen": "../img/accesorios7.jpg",
+    "precio": "4000"
+  },
+  {
+    "id": "accesorios-08",
+    "titulo": "Riñonera Astronauta",
+    "imagen": "../img/accesorios8.jpg",
+    "precio": "4000"
+  },
+  {
+    "id": "accesorios-09",
+    "titulo": "Gorra L.A Beige",
+    "imagen": "../img/accesorios9.jpg",
+    "precio": "3000"
+  },
+  {
+    "id": "accesorios-10",
+    "titulo": "Gorra B Marron",
+    "imagen": "../img/accesorios10.jpg",
+    "precio": "3000"
+  },
+  {
+    "id": "accesorios-11",
+    "titulo": "Gorra L.A Gris",
+    "imagen": "../img/accesorios11.jpg",
+    "precio": "3000"
+  },
+  {
+    "id": "accesorios-12",
+    "titulo": "Gorras N.Y",
+    "imagen": "../img/accesorios12.jpg",
+    "precio": "3000"
+  },
+  {
+    "id": "zapatillas-01",
+    "titulo": "Jordan Retro 4",
+    "imagen": "../img/zapatilla1.jpg",
+    "precio": "22000"
+  },
+  {
+    "id": "zapatillas-02",
+    "titulo": "Jordan Retro 4",
+    "imagen": "../img/zapatilla2.jpg",
+    "precio": "22000"
+  },
+  {
+    "id": "zapatillas-03",
+    "titulo": "Jordan Retro 4",
+    "imagen": "../img/zapatilla3.jpg",
+    "precio": "22000"
+  },
+  {
+    "id": "zapatillas-04",
+    "titulo": "Jordan Retro 4",
+    "imagen": "../img/zapatilla4.jpg",
+    "precio": "22000"
+  },
+  {
+    "id": "zapatillas-05",
+    "titulo": "Nike Bota",
+    "imagen": "../img/zapatilla5.jpg",
+    "precio": "19000"
+  },
+  {
+    "id": "zapatillas-06",
+    "titulo": "Nike Bota",
+    "imagen": "../img/zapatilla6.jpg",
+    "precio": "19000"
+  },
+  {
+    "id": "zapatillas-07",
+    "titulo": "Nike-Dior",
+    "imagen": "../img/zapatilla7.jpg",
+    "precio": "19000"
+  },
+  {
+    "id": "zapatillas-08",
+    "titulo": "Nike Rainbow",
+    "imagen": "../img/zapatilla8.jpg",
+    "precio": "19000"
+  },
+  {
+    "id": "zapatillas-09",
+    "titulo": "All Star Bota",
+    "imagen": "../img/zapatilla9.jpg",
+    "precio": "16000"
+  },
+  {
+    "id": "zapatillas-10",
+    "titulo": "Vans Bota",
+    "imagen": "../img/zapatilla10.jpg",
+    "precio": "16000"
+  },
+  {
+    "id": "zapatillas-11",
+    "titulo": "Vans Clasica",
+    "imagen": "../img/zapatilla11.jpg",
+    "precio": "16000"
+  },
+  {
+    "id": "zapatillas-12",
+    "titulo": "All Star Bota",
+    "imagen": "../img/zapatilla12.jpg",
+    "precio": "16000"
+  }
+]

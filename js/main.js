@@ -3,6 +3,14 @@
 let botonesAgregar = document.querySelectorAll(".producto-agregar");
 const numeroCarrito = document.querySelector("#numero-carrito");
 
+let almacen = [];
+fetch("../js/almacen.json")
+.then(response => response.json())
+.then(data => {
+  almacen = data;
+  cargaDeProductos(almacen);
+})
+
 botonesAgregar.forEach((boton) => {
   boton.addEventListener("click", agregarAlCarrito);
 });
@@ -27,9 +35,10 @@ function agregarAlCarrito(e) {
     "productos-en-carrito",
     JSON.stringify(productosEnCarrito)
   );
+  notif()
 }
 
-function actualizarNumeroCarrito() {
+const actualizarNumeroCarrito = () => {
   let nuevoNumeroCarrito = productosEnCarrito.reduce(
     (acc, producto) => acc + producto.cantidad,
     0
@@ -38,13 +47,7 @@ function actualizarNumeroCarrito() {
 }
 
 let productosEnCarritoLS = localStorage.getItem("productos-en-carrito");
-if (productosEnCarritoLS) {
-  productosEnCarrito = JSON.parse(productosEnCarritoLS);
-  actualizarNumeroCarrito();
-} else {
-  productosEnCarrito = [];
-}
-
+ productosEnCarritoLS ? (productosEnCarrito = JSON.parse(productosEnCarritoLS),actualizarNumeroCarrito()) : productosEnCarrito = []
 
 // darkmode
 
@@ -53,25 +56,22 @@ const botonDarkmode = document.querySelector("#dark-mode_moon")
 const botonLightmode = document.querySelector("#dark-mode_sun")
 let darkmode = localStorage.getItem("dark-mode")
 
-function activarDarkmode() {
+const activarDarkmode=()=> {
   body.classList.add("darkmode")
   localStorage.setItem("dark-mode", "activado")
   botonDarkmode.classList.add("disabled")
   botonLightmode.classList.remove("disabled")
 }
 
-function activarLightmode() {
+const activarLightmode =() => {
   body.classList.remove("darkmode")
   localStorage.setItem("dark-mode", "desactivado")  
   botonDarkmode.classList.remove("disabled")
   botonLightmode.classList.add("disabled")      
 }
 
-if (darkmode === "activado") {
-  activarDarkmode();
-} else {
-  activarLightmode();
-}
+ darkmode === "activado" ? activarDarkmode() : activarLightmode() 
+
 
 botonDarkmode.addEventListener("click", (e) => {
   darkmode = localStorage.getItem("dark-mode");
@@ -85,5 +85,36 @@ botonLightmode.addEventListener("click", (e) => {
   activarLightmode()  
 })
 
+// efecto carrito header
+const carritoHeader = document.querySelector("#carrito-header");
+const botonCarritoHeader = document.querySelectorAll(".card-boton")
 
 
+botonCarritoHeader.forEach(boton => {
+  boton.addEventListener("click", () => {
+    carritoHeader.classList.add("carrito-header");
+    setTimeout(() => {
+      carritoHeader.classList.remove("carrito-header");
+      carritoHeader.classList.add("carrito-header--hide");
+    },2000);
+  })
+})
+
+
+
+
+
+const notif = () => {
+  Toastify({
+    text: "Se agrego al carrito",
+    duration: 1000,
+    close: true,
+    gravity: "bottom", // `top` or `bottom`
+    position: "left", // `left`, `center` or `right`
+    stopOnFocus: true, // Prevents dismissing of toast on hover
+    style: {
+      background: "#f19f50",
+    },
+    onClick: function(){} // Callback after click
+  }).showToast();
+}

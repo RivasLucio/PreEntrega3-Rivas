@@ -24,15 +24,23 @@
             width: 130px;
             height: 180px;
             border-radius: 20px;
+            object-fit: cover;
+        }
+        button {
+            color: #EA7914;
+            font-size: 20px;
+            background: none;
+            border: none;
+            cursor: pointer;
         }
         .carrito-producto {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 10px;
-            padding-right: 20px;
             border-radius: 10px;
             border: 1px solid #EA7914;
+            margin-inline: 20px;
         }
     }
 
