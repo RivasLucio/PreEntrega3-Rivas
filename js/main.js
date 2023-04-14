@@ -3,7 +3,7 @@
 let botonesAgregar = document.querySelectorAll(".producto-agregar");
 const numeroCarrito = document.querySelector("#numero-carrito");
 
-let almacen = [];
+almacen = [];
 fetch("../js/almacen.json")
 .then(response => response.json())
 .then(data => {
@@ -103,17 +103,18 @@ botonCarritoHeader.forEach(boton => {
 
 
 
-
+//toastify
 const notif = () => {
   Toastify({
     text: "Se agrego al carrito",
-    duration: 1000,
+    duration: 1200,
     close: true,
-    gravity: "bottom", // `top` or `bottom`
-    position: "left", // `left`, `center` or `right`
+    gravity: "top", // `top` or `bottom`
+    position: "right", // `left`, `center` or `right`
     stopOnFocus: true, // Prevents dismissing of toast on hover
     style: {
       background: "#f19f50",
+      borderRadius: "20px",
     },
     onClick: function(){} // Callback after click
   }).showToast();

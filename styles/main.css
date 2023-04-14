@@ -5,13 +5,15 @@
 
 header img {
   filter: brightness(1.1);
-  mix-blend-mode: multiply; }
+}
+
 
 body {
   text-align: center;
   width: 100%;
   transition: 0.8s;
-  padding: 0 !important; }
+  padding: 0 !important;
+}
 
 ul {
   list-style: none; }
@@ -48,9 +50,11 @@ ul {
       font-size: 20px;
       color: #000; }
   .nav-bar_container .nav-bar ul {
-    gap: 40px; }
+    gap: 40px;
+    height: 30px;
+   }
     .nav-bar_container .nav-bar ul li:hover {
-      border-bottom: #000 2px solid; }
+      border-bottom: #EA7914 2px solid; }
   .nav-bar_container .nav-bar_redes a {
     font-size: 22px;
     margin: 15px; }
@@ -69,9 +73,12 @@ ul {
     font-size: 20px;
     color: #000; }
   body.darkmode .nav-bar_container .carrito-header--hide a {
-    transition: 0.8s;
+    transition: 1s;
     font-size: 20px;
     color: #fff; }
+    body.darkmode header img {
+      filter:invert(100%) sepia(39%) saturate(0%) hue-rotate(279deg) brightness(102%) contrast(102%);
+    }
 
 .fondo_container {
   background: url(../img/urbanfondo.jpeg);
