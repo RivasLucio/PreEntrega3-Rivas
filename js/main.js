@@ -5,11 +5,16 @@ const numeroCarrito = document.querySelector("#numero-carrito");
 
 almacen = [];
 fetch("../js/almacen.json")
-.then(response => response.json())
-.then(data => {
-  almacen = data;
-  cargaDeProductos(almacen);
-})
+  .then(response => response.json())
+  .then(data => {
+    almacen = data;
+    cargaDeProductos(almacen);  //funcion llamada en carrito.js
+  })
+  .catch(error => {
+    console.error('Ocurrió un error: ', error);
+  })
+
+
 
 botonesAgregar.forEach((boton) => {
   boton.addEventListener("click", agregarAlCarrito);

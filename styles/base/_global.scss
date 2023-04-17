@@ -1,15 +1,10 @@
-header {
-    img {
-        filter: brightness(1.1);
-        mix-blend-mode: multiply;
-    }
-}
 
 body {
     text-align: center;
     width: 100%;
     transition: 0.8s;
     padding: 0 !important;
+    font-family: 'Oswald', sans-serif;
 }
 
 ul{
@@ -21,7 +16,7 @@ ul{
 
 
 .disabled{
-    display: none;
+    display: none !important;
     visibility: hidden;
 }
 
