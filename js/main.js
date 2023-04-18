@@ -11,7 +11,7 @@ fetch("../js/almacen.json")
     cargaDeProductos(almacen);  //funcion llamada en carrito.js
   })
   .catch(error => {
-    console.error('Ocurrió un error: ', error);
+    console.error('Ocurrió un error, por favor recargue pagina: ', error);
   })
 
 
