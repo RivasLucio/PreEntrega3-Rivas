@@ -1,4 +1,4 @@
-<p align="center"><img width="280px" src="img/logo.png" alt="logo de craft"></p>
+<p align="center"><img width="280px" src="img/icono.png" alt="logo de craft"></p>
 
 ---
 <h1 align="center">Indumentaria urban</h1>
