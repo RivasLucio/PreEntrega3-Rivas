@@ -101,7 +101,7 @@ function eliminarDelCarrito(e) {
 
 
 
-// swetAlert2
+// accion de vaciar carrito con sweetAlert2
 function vaciarCarrito() {
   productosEnCarrito.length = 0;
   localStorage.setItem(
