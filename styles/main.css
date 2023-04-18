@@ -402,6 +402,10 @@ ul {
     .contenedor-carrito .carrito-acciones .carrito-acciones-centro {
       font-size: 25px; }
 
+body.darkmode .swal2-popup {
+  background: #13191B;
+  color: #fff; }
+
 .footer_container {
   width: 100%;
   height: 200px;
